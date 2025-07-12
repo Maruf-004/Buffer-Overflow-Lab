@@ -23,17 +23,12 @@ Find a JMP ESP instruction in a module that is:
 !mona config -set workingfolder c:\mona\%p
 List modules:
 
-bash
-Copy
-Edit
 !mona modules
 Chose module: essfunc.dll
 
 Found JMP ESP:
 
-bash
-Copy
-Edit
+
 !mona find -s "\xff\xe4" -m essfunc.dll
 Got address: 625011AF
 
